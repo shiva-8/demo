@@ -1,0 +1,16 @@
+#%RAML 1.0
+title: customers-mule-api
+
+/customers:
+  get:
+    responses:
+      200:
+        body:
+          application/json:
+            example:
+              {
+                "custname": "adbc",
+                "custid": "123",
+                "custaddr": "hyd",
+                "custphno": "1234567890"
+              }
